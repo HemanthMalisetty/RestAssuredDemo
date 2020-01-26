@@ -11,7 +11,7 @@ public class Basics {
 		given().
 				param("location", "-33.8670522,151.1957362").
 				param("radius", "500").
-				param("key", "AIzaSyDg2id92bUOL-_63TLK-kxH-U9ihjVJLhM").
+				param("key", "").
 		when()
 				.get("/maps/api/place/nearbysearch/json").
 		then()
